@@ -64,6 +64,8 @@ img {max-width:100%;
 .section2 {
     display: flex;
     flex:1;
+    min-height: 100vh;
+    padding: 0 15%;
 
     
 }
