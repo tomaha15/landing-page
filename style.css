@@ -51,9 +51,14 @@ body {
     flex-direction: column;
 }
 .sub12 {
+    display: flex;
     min-width: 47%;
+    
     background-color: brown;
+
 }
+
+img {max-width:100%;}
 
 .section2 {
     display: flex;
