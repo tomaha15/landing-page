@@ -5,7 +5,7 @@ body {
     flex-direction: column;
     align-items: stretch;
     justify-content: space-between;    
-    flex:1;
+    flex:1 1 auto;
     
 }
 
@@ -38,11 +38,12 @@ body {
 
 .section1 {
     display: flex;
-    flex:1;
+    flex:1 1 auto;
     background-color: #1F2937;
     justify-content: space-around;
     padding: 5% 15%;
     gap:5%;
+    
     
     
 }
@@ -50,6 +51,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 5%;
+    flex-shrink: 1;
+    max-width: 47%;
 }
 .sub12 {
     display: flex;
@@ -59,15 +62,36 @@ body {
 }
 
 img {max-width:100%;
+    object-fit: scale-down;
 }
 
 .section2 {
     display: flex;
     flex:1;
-    min-height: 100vh;
+    min-height: 80vh;
     padding: 0 15%;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
 
     
+}
+
+.section22{
+    display: flex;
+    min-height: 50vh;
+    gap: 5%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 60%;
+}
+.border{
+    min-width: 100%;
+    min-height: 100%;
+    background-color: #1F2937;
 }
 
 .section3 {
