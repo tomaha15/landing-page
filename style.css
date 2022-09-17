@@ -17,7 +17,7 @@ body {
     background-color: #1F2937;
     font-size: 24px;
     color: #f9faf8;
-    padding: 0 20px;
+    padding: 0 15%;
 
 }
 
@@ -41,7 +41,7 @@ body {
     flex:1;
     background-color: #1F2937;
     justify-content: space-around;
-    padding: 5%;
+    padding: 5% 15%;
     gap:5%;
     
     
