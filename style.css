@@ -139,7 +139,14 @@ img {max-width:100%;
     background-color: #3882f6;
     justify-content: flex-start;
     align-content: center;
+    color: #f9faf8;
 
+
+}
+
+.main4 {
+    font-weight: 900;
+    font-size:large;
 }
 
 .left4{
