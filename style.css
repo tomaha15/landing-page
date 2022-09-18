@@ -128,16 +128,38 @@ img {max-width:100%;
 }
 
 .section4 {
+    min-height: 20vh;
     display: flex;
     flex:1;
-
+    border-width: 15vh;
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
+    padding: 0 15vh;
     background-color: #3882f6;
+    justify-content: flex-start;
+    align-content: center;
 
+}
+
+.left4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: auto;
+}
+
+.right4{
+    display: flex;
+    align-self: center;
+    justify-content: center;
 }
 .main-text {
     font-size: 48px;
     color:#f9faf8;
     font-weight: 900;
+
 }
 
 .subtext {
@@ -159,5 +181,7 @@ ul {
 }
 
 button {
-    max-width: 15vh;
+    width: 100px;
+    max-height: 30px;
+    border-radius: 8px;
 }
